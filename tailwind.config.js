@@ -40,12 +40,15 @@ module.exports = {
           800: "#424242",
           900: "#212121"
         }
+      },
+      fontFamily: {
+        sans: ["var(--font-barlow-condensed)"]
+      },
+      fontWeight: {
+        regular: 400,
+        medium: 500,
+        bold: 700
       }
-      // TODO: Add custom fonts
-      // fontFamily: {
-      //   sans: ["Inter var", "sans-serif"],
-      //   serif: ["Merriweather", "serif"]
-      // }
     }
   },
   plugins: []
