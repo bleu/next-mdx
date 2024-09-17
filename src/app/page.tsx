@@ -1,16 +1,13 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Content from "./message.mdx";
-import Header from "./(components)/header";
-import Sections from "./(components)/sections";
-
-const inter = Inter({ subsets: ["latin"] });
+import HeroSection from "@/components/heroSection"
 
 export default function Home() {
   return (
-    <main className="w-screen">
-      <Header/>
-      <Sections/>
+    <main className="pt-56">
+      <HeroSection
+        title="Nurturing the potential of projects and individuals in Web3"
+        subtitle="We specialize in creating customized software solutions to help
+            businesses thrive in today's digital landscape"
+      />
     </main>
-  );
+  )
 }
