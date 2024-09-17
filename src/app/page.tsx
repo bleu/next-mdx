@@ -1,4 +1,4 @@
-import HeroSection from "@/components/section"
+import HeroSection from "@/components/heroSection"
 
 export default function Home() {
   return (
