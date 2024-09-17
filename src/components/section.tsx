@@ -14,20 +14,20 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle }) => {
         <div className="flex gap-3 flex-1">
           <button
             type="button"
-            className="py-4 px-10 rounded-lg text-xl bg-secondary-400 text-black hover:bg-hover-secondary"
+            className="py-4 px-10 rounded-lg text-xl bg-secondary text-black hover:bg-secondary/80"
           >
             Build with us
           </button>
           <button
             type="button"
-            className="py-4 px-10 rounded-lg text-xl bg-primary-500 text-white hover:bg-hover-primary"
+            className="py-4 px-10 rounded-lg text-xl bg-primary text-white hover:bg-primary/80"
           >
             Join our team
           </button>
         </div>
       </div>
       <div className="flex flex-1 items-center justify-center">
-        <div className="w-52 h-52 bg-primary-600" />
+        <div className="w-52 h-52 bg-primary" />
       </div>
     </div>
   )
