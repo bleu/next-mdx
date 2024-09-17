@@ -59,7 +59,13 @@ export default function Header() {
     >
       <nav className="flex flex-1 items-center justify-between h-24 px-12">
         <Link href="/">
-          <Image src="/bleu.png" alt="bleu's logo" width={100} height={100} />
+          <Image
+            src="/bleu-logo.svg"
+            alt="bleu's logo"
+            width={100}
+            height={16}
+            priority
+          />
         </Link>
         <NavigationMenu.Root className="relative">
           <NavigationMenu.List className="flex space-x-8">
