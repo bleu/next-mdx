@@ -53,7 +53,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 px-6 md:px-12 text-lg font-medium transition-transform duration-300",
+        "fixed top-0 left-0 right-0 px-6 md:px-12 text-lg font-medium bg-white transition-transform duration-300",
         isVisible ? "translate-y-0" : "-translate-y-full"
       )}
     >

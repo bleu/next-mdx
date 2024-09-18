@@ -18,8 +18,8 @@ const OurClientButton: React.FC<OurClientButtonProps> = ({
       type="button"
     >
       <div className="w-24 h-24 bg-black rounded-lg self-end" />
-      <h3 className="text-5xl">{title}</h3>
-      <p className="mt-16 text-justify invisible max-w-[75%] text-lg group-hover:visible">
+      <h3 className="text-5xl font-medium">{title}</h3>
+      <p className="mt-16 text-start invisible max-w-[75%] text-lg group-hover:visible">
         {description}
       </p>
       <Link href={href} className="text-lg mt-6 invisible group-hover:visible">

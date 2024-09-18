@@ -9,7 +9,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle }) => {
   return (
     <div className="flex flex-1 px-28">
       <div className="space-y-9 flex flex-col flex-1">
-        <h1 className="text-6xl">{title}</h1>
+        <h1 className="text-6xl font-medium">{title}</h1>
         <p className="text-2xl">{subtitle}</p>
         <div className="flex gap-3 flex-1">
           <button
