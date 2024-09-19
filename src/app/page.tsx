@@ -106,6 +106,7 @@ export default function Home() {
           Our commitment
         </h2>
         <div className="grid grid-cols-3 mx-24 border border-black rounded-3xl">
+          {/* TODO: DOUBLE CHECK ITEM'S TITLES - BLEU-470 */}
           {commitments.map((item, index) => (
             <div
               className={cn(

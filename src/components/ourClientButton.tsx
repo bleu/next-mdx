@@ -1,5 +1,6 @@
 import type React from "react"
 import Link from "next/link"
+import { ArrowRightIcon } from "@radix-ui/react-icons"
 
 interface OurClientButtonProps {
   title: string
@@ -22,8 +23,12 @@ const OurClientButton: React.FC<OurClientButtonProps> = ({
       <p className="mt-16 text-start invisible max-w-[75%] text-lg group-hover:visible">
         {description}
       </p>
-      <Link href={href} className="text-lg mt-6 invisible group-hover:visible">
-        Case study -&gt;
+      <Link
+        href={href}
+        className="text-lg mt-6 invisible  group-hover:visible flex items-center"
+      >
+        <span>Case study</span>
+        <ArrowRightIcon className="ml-1 mt-1" />
       </Link>
     </button>
   )
