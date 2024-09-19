@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils"
 import type React from "react"
 
 interface SectionProps {
@@ -12,7 +13,7 @@ const Section = ({
   className = ""
 }: SectionProps) => {
   return (
-    <section className={`${paddingY} ${className}`.trim()}>{children}</section>
+    <section className={cn(paddingY, className.trim())}>{children}</section>
   )
 }
 

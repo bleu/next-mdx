@@ -72,7 +72,7 @@ export default function Home() {
         subtitle="We're here to create sustainable, long-term value in the Web3 space, and work to foster its growth in an ethical and thoughtful manner."
       />
       <Section className="py-32 px-12 bg-primary/20 rounded-3xl mt-64">
-        <span className="text-gray-600 italic underline">Our clients</span>
+        <span className="text-gray-600 underline">Our clients</span>
         <h2 className=" text-start mt-8 mb-28 ml-24 text-5xl ">
           These are some of the companies <br /> that trusted us to simplify
           blockchain <br />
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </Section>
       <Section className="flex flex-col px-12 gap-8">
-        <span className="text-gray-600 italic underline">Testimonials</span>
+        <span className="text-gray-600 underline">Testimonials</span>
         <div className="grid grid-cols-2 gap-8 px-24">
           {/* TODO: UPDATE COMPANY'S LOGO - BLEU-469 */}
           <TestimonialsCard
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </Section>
       <Section className="py-32 px-12 bg-secondary/20 rounded-3xl">
-        <span className="text-gray-600 italic underline">What we do</span>
+        <span className="text-gray-600 underline">What we do</span>
         <h2 className="text-start mt-8 mb-28 ml-24 text-5xl ">
           Our commitment
         </h2>
