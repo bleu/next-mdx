@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${barlowCondensed.variable} font-sans`}>
-      <body className="bg-neutral-50 text-neutral-800 px-24">
+      <body className="px-24">
         <Header />
         {children}
       </body>
