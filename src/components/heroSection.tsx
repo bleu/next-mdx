@@ -26,6 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle }) => {
           </button>
         </div>
       </div>
+      {/* TODO: REPLACE ASSET - BLEU-468 */}
       <div className="flex flex-1 items-center justify-center">
         <div className="w-52 h-52 bg-primary" />
       </div>

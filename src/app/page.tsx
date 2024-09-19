@@ -87,7 +87,7 @@ export default function Home() {
       <Section className="flex flex-col px-12 gap-8">
         <span className="text-gray-600 italic underline">Testimonials</span>
         <div className="grid grid-cols-2 gap-8 px-24">
-          {/* TODO: UPDATE LOGOS WITH COMPANY'S LOGO */}
+          {/* TODO: UPDATE COMPANY'S LOGO - BLEU-469 */}
           <TestimonialsCard
             logo="/bleu-logo.svg"
             company="Balancer"
